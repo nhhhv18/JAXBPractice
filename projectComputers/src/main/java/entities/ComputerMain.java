@@ -1,6 +1,3 @@
-// 1 Thread with Runnable interface (UserAccountRunnable)
-//1 Thread with Thread class (ApplicationThread)
-
 
 package entities;
 
@@ -67,33 +64,8 @@ public class ComputerMain {
         computer.handlePower(true);
         //computer.displayComputerDetails();
 
-
-        // Runnable interface
-        UserAccountRunnable accountRunnable = new UserAccountRunnable(userAccounts);
-        Thread accountThread = new Thread(accountRunnable, "AccountThread");
-        System.out.println("Starting Threads...");
-        accountThread.start();
-        try {
-            accountThread.join();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println("Threads have completed execution.");
-
-
-        // Thread class
-        Thread appThread = new ApplicationThread(installedApplications);
-        System.out.println("Starting threads...");
-        appThread.start();
-        try {
-            appThread.join();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println("Threads have completed execution.");
-
-
 //To check the GitHub
+        
 /*
         System.out.println();
         //stream
