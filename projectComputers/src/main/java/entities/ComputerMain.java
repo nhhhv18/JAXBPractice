@@ -63,8 +63,6 @@ public class ComputerMain {
         // Turns the computer on using the lambda expression - the functional interface Powerable
         computer.handlePower(true);
         //computer.displayComputerDetails();
-
-//To check the GitHub
         
 /*
         System.out.println();
