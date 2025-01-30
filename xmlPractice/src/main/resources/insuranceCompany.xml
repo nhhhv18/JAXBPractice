@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InsuranceCompany>
+    <Company name="SecureSolvd Insurance">
+		
+		<Policies>
+        <Policy id="P78654768" type="HP">   <!-- Home Product -->
+        	<CustomerId>PH76540987</CustomerId>
+            <Premium>450</Premium>
+            <Coverage>10000</Coverage>
+            <AgentId>A2</AgentId>
+        </Policy>
+        <Policy id="PH57865765" type="CP"> <!-- Car Product -->
+            <CustomerId>PH76540987</CustomerId>
+            <Premium>750</Premium>
+            <Coverage>20000</Coverage>
+            <AgentId>A2</AgentId>
+        </Policy>
+        </Policies>
+          
+        <Customers>
+		<Customer id="PH76540987"> <!-- PH - Policy Holder -->
+                <Name>Jane Smith</Name>
+                <Age>29</Age>
+                <Address>456 Elm St, Riverside</Address>
+        </Customer>    
+                <Customer id="PH57865765">
+                <Name>Yana Nehaeva</Name>
+                <Age>20</Age>
+                <Address>123 Main St, Springfield</Address>
+        </Customer>
+		</Customers>  
+		  
+        <Agents>
+        <Agent id="A2">
+            <Type>MBank CC</Type>
+        </Agent>
+        </Agents>
+        
+        <Claims>
+        <Claim id="C56765478">
+            <PolicyId>P78654768</PolicyId>
+            <Amount>5000</Amount>
+            <Description>Tires</Description>
+            <Status>In process</Status>
+        </Claim>
+        </Claims>
+        
+        <Payments>
+        <Payment id="PM65789456"> 
+            <PolicyId>P78654768</PolicyId>
+            <Amount>450</Amount>
+            <Date>2024-01-30</Date>
+            <Status>Completed</Status>
+        </Payment>
+        <Payment id="PM65789476">
+            <PolicyId>P78654869</PolicyId>
+            <Type>Claim Disbursement</Type>
+            <Amount>750</Amount>
+            <Date>2024-02-01</Date>
+            <Status>In process</Status>
+        </Payment>
+        </Payments>
+        
+    </Company>
+</InsuranceCompany>
