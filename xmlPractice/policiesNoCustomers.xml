@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<policies>
+    <policy id="10001">
+        <startDate>2024.December.12</startDate>
+        <endDate>2025.December.12</endDate>
+        <coverageAmount>450</coverageAmount>
+    </policy>
+    <policy id="10002">
+        <startDate>2026.April.10</startDate>
+        <endDate>2027.April.10</endDate>
+        <coverageAmount>350</coverageAmount>
+    </policy>
+</policies>
